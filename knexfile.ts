@@ -10,6 +10,9 @@ const config: Knex.Config = {
     extension: "ts",
     directory: "./src/database/migrations",
   },
+  seeds: {
+    extension: "ts",
+    directory: "./src/database/seeds",
+  },
 };
 
-export default config;
